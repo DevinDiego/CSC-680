@@ -1,0 +1,130 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body {    
+  margin-top: 2%;
+  opacity:  90%;
+} 
+
+h2 {
+  color:  #000;
+  margin: 0 0 2% 20%;
+  text-shadow: 2px 2px #CCC;
+}
+
+.icon {
+  background-color: #FFF;
+  border-radius: 50%;
+  margin-left: 5%;
+}
+
+.h1 {
+  color: #0d6efd;  
+  font-family: 'Press Start 2P', cursive;
+  letter-spacing: 5px; 
+  text-align: center; 
+  text-shadow: 4px 4px #383838;
+} 
+
+.about {
+  word-break: break-all;
+}
+
+.admin-h2, {
+  margin: 0 0 3% 0;
+}
+
+.admin-btn {
+  margin-bottom: 3%;
+}
+
+.navbar {  
+  margin-bottom: 5%;
+}
+
+.navbar-toggler-icon {
+  background-color: #FFFFFF;
+  border: 3px solid #383838;
+  border-radius: 5px;  
+  font-size: 1.7rem !important;
+}
+
+.container-fluid {
+  background-color: #0d6efd;
+  border: 4px solid #383838;
+  border-radius: 5px;
+  box-shadow: 5px 10px #888888;    
+}
+
+.navbar-nav a {
+  color: #FFF;
+  font-weight: 400;
+}
+
+.form {
+  align-content: center;
+  margin: 0 20%;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}  
+
+.input-group, .form-floating, .date-time {
+  margin-bottom: 8px;
+}
+
+.category {
+  font-style: italic;
+}
+
+.errors {
+  color: red;
+  font-weight: 700;
+  margin-left: 18%;
+}
+
+/*sticky footer*/
+.footer {
+  bottom: 0;
+  height: 2.5rem; 
+  opacity: 70%;           
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/*hide footer as screen gets smaller*/
+@media (min-height: 0px) and (max-height: 890px){
+    .footer { 
+        display : none; 
+        visibility : hidden; 
+    }
+} 
+
+
+
+
+
+
+
+
