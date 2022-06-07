@@ -17,10 +17,10 @@ class Database {
 	
 	public function getDatabaseConnection() {
 
-		$db_host = "localhost";
+		$db_host = "";
 		$db_name = "hw2blogcsc680";
-		$db_user = "root";
-		$db_pass = "UcgMnpWtf";		
+		$db_user = "";
+		$db_pass = "";		
 
 		$dsn = 'mysql:host=' . $db_host . ';dbname=' . $db_name . ';charset=utf8';
 
